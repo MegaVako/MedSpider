@@ -19,6 +19,10 @@ Notice
   
   https://stackoverflow.com/questions/30345623/scraping-dynamic-content-using-python-scrapy
   
+  Possible SPLASH_URL problem
+  
+  https://stackoverflow.com/questions/41610403/scrapy-splash-connection-refused
+  
   My scrapinghub:
   
   https://app.scrapinghub.com/p/375850/jobs
@@ -34,4 +38,10 @@ Notice
   Info about crawling/robot.txt
   
   https://canicrawl.com/
+  
+  Alternative approches about dynamic content
+  
+  https://stackoverflow.com/questions/8550114/can-scrapy-be-used-to-scrape-dynamic-content-from-websites-that-are-using-ajax
+  
+  https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash
   
