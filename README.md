@@ -45,3 +45,6 @@ Notice
   
   https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash
   
+  Proxy Info
+  
+  https://stackoverflow.com/questions/4710483/scrapy-and-proxies
