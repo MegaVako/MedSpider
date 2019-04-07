@@ -1,9 +1,20 @@
 # MedSpider
 med-level spider
 
-To run docker: docker run -p 8050:8050 scrapinghub/splash
+To run docker: 
+```
+docker run -p 8050:8050 scrapinghub/splash
+```
 
-To run spider: scrapy crawl xcSpider_v1.0 -s ROBOTSTXT_OBEY=False -o <output_Name>.json
+To run spider: 
+```
+scrapy crawl xcSpider_v1.0 -s ROBOTSTXT_OBEY=False -o <output_Name>.json
+```
+
+Advance run spider: 
+```
+while [ $count -lt $max ]; do scrapy crawl xcSpider_v1.0 -s ROBOTSTXT_OBEY=False -o ./result/$(date +"%Y_%m_%d_%I_%M_%p").json; sleep $st; $count=$[$count+1]; done
+```
 
 Notice
 
